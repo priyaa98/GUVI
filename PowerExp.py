@@ -4,10 +4,10 @@ class powerexp:
         self.nkarr=(self.nkarr).split(" ")
         self.nkarr=[int(i) for i in self.nkarr]
     def calc(self):
-        muln=1
+        mul=1
         for i in range(0,self.nkarr[1]):
-            muln=muln*self.nkarr[0]
-        print(muln)
+            mul=mul*self.nkarr[0]
+        print(mul)
 
 p= powerexp()
 p.calc()
