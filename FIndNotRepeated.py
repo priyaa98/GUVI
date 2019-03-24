@@ -4,12 +4,12 @@ class FindNotRepeated:
         self.narr=input()
 
     def ToFind(self):
-        narr=[int(i) for i in self.narr.split(" ")]
+        arr=[int(i) for i in (self.narr).split(" ")]
         dict1={}
         l=0
-        for i in narr:
+        for i in arr:
             dict1[i]=0
-        for i in narr:
+        for i in arr:
             dict1[i]+=1
         for i in dict1:
             if(dict1[i]==1):
